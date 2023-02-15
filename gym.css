@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url("gym.jpg");
+    color:black;
+}
+.header{
+    height: 100px;
+    background-color:white;
+    margin-top: -29px;
+}
+.left{
+    display: flex;
+    width:200px;
+    position:absolute;
+    left:30px;
+    padding:px ;
+}
+.mid{
+    display:block;
+    width:33%;
+    margin:30px auto;
+}
+nav{
+    position:absolute;
+    top:37px; 
+}
+nav a{
+    color:black;
+    padding:30px;
+    font-size: 25px;
+    font-family:'Signika', sans-serif;
+
+}
+nav a:hover{
+    color:blueviolet;
+}
+.right{
+    width:120px;
+    border-radius:90px;
+    position:absolute;
+    right:80px;
+    top:30px;
+    padding:10px;
+    background-color:lightgray;
+    text-align: center;
+    font-family:'Signika', sans-serif;
+    font-size: 20px;
+}
+.right:hover{
+    color:blueviolet;
+}
+.png{
+    width:120px;
+    height:70px;
+}
+.search{
+    width:20px;
+    height:20px;
+    padding-left: 7px;
+
+    
+}
+.container{
+    border-radius: 20px;
+    border:3px solid white;
+    height:280px;
+    width:250px;
+    margin: 130px;
+    color:white;
+    padding:30px;
+    background: rgba(203, 207, 207, 0.2);
+
+}
+h{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:2px;
+}
+input{
+    padding:6px;
+    font-size: 15px;
+}
+button{
+    width:180px;
+    background-color: black;
+    color:white;
+    margin-top: 5px;
+    padding: 7px;
+
+}
+button:hover{
+    color:green;
+
+}
+.star {
+    position: absolute;
+    top: 35px;
+    font-size: 28px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
